@@ -23,3 +23,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 else {
     header("Location: ../index.php");
 }
+
+//variables
+
+$a = "Hello";
+$b = "World";
+$c = $a . $b;
+echo $c;
+
+//conditionals
+if($a == $b || $c == $b && $a != $b) {
+    echo "cdonition is true";
+}
+
+//incrementing / decrementing
+$$a = 10;
+echo ++$a;
+echo --$a;

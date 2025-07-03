@@ -32,6 +32,16 @@
                 <input type="submit" value="Submit Form">
             </div>
         </form>
+    
+        <?php
+        $a = "Hello";
+        $b = "World";
+        echo $a ." ". $b
+
+
+
+        if($a ==)
+        ?>
 
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
